@@ -23,7 +23,7 @@ int main()
    scanf("%d %d",&a,&b);
    h = hcf(a,b);
    printf("HCF(%d,%d) = %d\n",a,b,h);
-   printf("LCM(%d,%d) = %d\n",a,b,a * b / h);
+   printf("LCF(%d,%d) = %d\n",a,b,a * b / h);
 
    return 0;
 }
