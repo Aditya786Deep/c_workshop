@@ -19,7 +19,7 @@ int hcf(int a,int b)
 int main()
 {
    int a,b,h;
-   printf("Enter value of a and b:");
+   printf("Enter value of dividend and divisor:");
    scanf("%d %d",&a,&b);
    h = hcf(a,b);
    printf("HCF(%d,%d) = %d\n",a,b,h);
